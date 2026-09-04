@@ -1,0 +1,80 @@
+# Maven / Java build outputs
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+out/
+
+# Runtime data and logs
+logs/
+log/
+tmp/
+temp/
+data/
+upload/
+*.log
+*.pid
+*.hprof
+hs_err_pid*
+
+# Local and sensitive configuration
+.env
+.env.*
+!.env.example
+.npmrc
+application-local.yml
+application-local.yaml
+application-local.properties
+application-*.local.yml
+application-*.local.yaml
+application-*.local.properties
+bootstrap-local.yml
+bootstrap-local.yaml
+bootstrap-local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+id_rsa
+id_ed25519
+
+# IDEs and editors
+.idea/
+.vscode/
+.fleet/
+.history/
+.settings/
+.project
+.classpath
+.factorypath
+.apt_generated/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.swp
+*.swo
+*.code-workspace
+*~
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Maven helpers
+*.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# Keep source files used by the code generator
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
